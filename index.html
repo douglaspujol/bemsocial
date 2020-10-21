@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Bem Social</title>
+</head>
+
+
+<body>
+  <header>
+    <img src="./assets//logo.svg" alt="Logo Bem Social">
+  </header>
+  <main class="main">
+
+    <!-- Formulário de postagem -->
+    <div class="newPost">
+      <div class="infoUser">
+        <div class="imgUser">
+        </div>
+        <strong>Douglas Pujol</strong>
+      </div>
+
+      <form action="" class="formPost">
+        <textarea name="textarea" placeholder="Vamos mudar o mundo?"></textarea>
+        <div class="iconsAndButton">
+          <div class="icons">
+            <button class="btnFileForm">
+              <img src="./assets/img.svg" alt="Adicionar uma imagem">
+            </button>
+            <button class="btnFileForm">
+              <img src="./assets/gif.svg" alt="Adicionar um gif">
+            </button>
+            <button class="btnFileForm">
+              <img src="./assets/video.svg" alt="Adicionar um vídeo">
+            </button>
+          </div>
+
+          <button type="submit" class="btnSubmitForm">Publicar</button>
+        </div>
+      </form>
+    </div>
+
+
+    <ul class="posts">
+      <li class="post">
+        <div class="infoUserPost">
+          <div class="imgUserPost"></div>
+
+          <div class="nameAndHour">
+            <strong>Douglas Pujol</strong>
+            <p>21h</p>
+          </div>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, aliquam accusamus? Minus sunt id temporibus
+          quae quidem, amet architecto inventore pariatur, accusantium nam maiores nesciunt laborum adipisci a, deserunt
+          blanditiis!
+        </p>
+
+        <div class="actionBtnPost">
+          <button type="button" class="filesPost like">
+            <img src="./assets/heart.svg" alt="Curtir">
+            Curtir
+          </button>
+          <button type="button" class="filesPost comment">
+            <img src="./assets/comment.svg" alt="Comentar">
+            Comentar
+          </button>
+          <button type="button" class="filesPost share">
+            <img src="./assets/share.svg" alt="Compartilhar">
+            Compartilhar
+          </button>
+        </div>
+      </li>
+
+    </ul>
+  </main>
+</body>
+
+</html>
