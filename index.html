@@ -18,14 +18,15 @@
 
     <!-- Formulário de postagem -->
     <div class="newPost">
+
       <div class="infoUser">
         <div class="imgUser">
         </div>
         <strong>Douglas Pujol</strong>
       </div>
 
-      <form action="" class="formPost">
-        <textarea name="textarea" placeholder="Vamos mudar o mundo?"></textarea>
+      <form action="" class="formPost" id="formPost">
+        <textarea name="textarea" placeholder="Vamos mudar o mundo?" id="textarea"></textarea>
         <div class="iconsAndButton">
           <div class="icons">
             <button class="btnFileForm">
@@ -39,47 +40,15 @@
             </button>
           </div>
 
-          <button type="submit" class="btnSubmitForm">Publicar</button>
+          <button type="submit" id="botao" class="btnSubmitForm">Publicar</button>
         </div>
       </form>
     </div>
 
+    <ul class="posts" id="posts"></ul>
 
-    <ul class="posts">
-      <li class="post">
-        <div class="infoUserPost">
-          <div class="imgUserPost"></div>
-
-          <div class="nameAndHour">
-            <strong>Douglas Pujol</strong>
-            <p>21h</p>
-          </div>
-        </div>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, aliquam accusamus? Minus sunt id temporibus
-          quae quidem, amet architecto inventore pariatur, accusantium nam maiores nesciunt laborum adipisci a, deserunt
-          blanditiis!
-        </p>
-
-        <div class="actionBtnPost">
-          <button type="button" class="filesPost like">
-            <img src="./assets/heart.svg" alt="Curtir">
-            Curtir
-          </button>
-          <button type="button" class="filesPost comment">
-            <img src="./assets/comment.svg" alt="Comentar">
-            Comentar
-          </button>
-          <button type="button" class="filesPost share">
-            <img src="./assets/share.svg" alt="Compartilhar">
-            Compartilhar
-          </button>
-        </div>
-      </li>
-
-    </ul>
   </main>
+  <script type="module" src="/Controllers/Form/FormPost.js"></script>
 </body>
 
 </html>
