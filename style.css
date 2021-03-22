@@ -84,6 +84,11 @@ div.newPost form.formPost textarea{
   font-weight: bold;
   color:#727272;
   font-family: 'Roboto', sans-serif;
+  border:2px solid #fff;
+}
+div.newPost form.formPost textarea:focus{
+  border:2px solid #23a0ff;
+
 }
 div.newPost form.formPost div.iconsAndButton{
   display: flex;
