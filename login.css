@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fbfbfb;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  flex-direction: column;
+}
+
+main h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 30px;
+}
+main form {
+  width: 100%;
+}
+main form div.field {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+main form div.field strong {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+main form div.field input {
+  width: 100%;
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+main div.btn-actions {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main div.btn-actions button {
+  width: 390px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  background: #23a0ff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+main div.btn-actions button:hover {
+  background: #0990f7;
+}
+main div.btn-actions a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+main div.btn-actions a:hover {
+  border-bottom: 1px solid #000;
+}
