@@ -48,6 +48,10 @@ main form div.field input {
   border: 2px solid #000;
   border-radius: 5px;
   padding: 10px;
+  outline: none;
+}
+main form div.field input:focus {
+  border-color: #23a0ff;
 }
 main div.btn-actions {
   margin-top: 20px;
@@ -77,4 +81,10 @@ main div.btn-actions a {
 }
 main div.btn-actions a:hover {
   border-bottom: 1px solid #000;
+}
+.error {
+  color: #ff1d1d;
+}
+.error input {
+  border: 2px solid #ff1d1d !important;
 }
